@@ -14,6 +14,8 @@ func CreateNode(node *LNode, max int) {
 		next.Data = i
 
 		cur.Next = next
+
+		// cur 指针向后移动
 		cur = cur.Next
 	}
 }
